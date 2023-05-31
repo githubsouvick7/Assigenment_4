@@ -1,0 +1,112 @@
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+}
+
+.item-left {
+    width: 40%;
+    height: 100%;
+    background-color: black;
+    font-size: 68px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.item-right {
+    width: 60%;
+    height: 100%;
+    background-color: #F5F5F5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login {
+    width: 600px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.box {
+    width: 385px;
+    height: 317px;
+    border-radius: 20px;
+    background-color: #ffffff;
+    padding: 30px;
+}
+
+.email {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    font-size: 18px;
+    width: 100%;
+}
+
+.password {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    font-size: 18px;
+    width: 100%;
+}
+
+.input {
+    width: 95%;
+    margin: 20px 0;
+    height: 40px;
+    background-color: #F5F5F5;
+    color: black;
+    padding: 0 10px;
+    font-size: 24px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+}
+
+.button {
+    width: 100%;
+    margin: 20px 0;
+    height: 40px;
+    background-color: black;
+    color: white;
+    font-size: 24px;
+    border-radius: 10px;
+    border: none;
+    padding: 0 10px;
+    cursor: pointer;
+}
+
+.forget {
+    padding: 12px 0;
+    color: blue;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.register p {
+    color: blue;
+}
+
+.authentication {
+    width: 75%;
+    border-radius: 12px;
+}
+
+.btn {
+    width: 100%;
+    margin: 20px 0;
+    height: 40px;
+    background-color: white;
+    color: black;
+    font-size: 24px;
+    border-radius: 10px;
+    border: 1px solid rgb(98, 98, 177);
+    padding: 0 10px;
+    cursor: pointer;
+}
